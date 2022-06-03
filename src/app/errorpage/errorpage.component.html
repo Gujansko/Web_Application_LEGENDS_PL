@@ -1,0 +1,28 @@
+<app-navbar src_reg="/reg" src_login="/"></app-navbar>
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video style="min-width: 100%; min-height: 100%" autoplay loop muted playsinline oncanplay="this.play()" onloadedmetadata="this.muted = true">
+          <source class="h-100" src="../../assets/error.mp4" type="video/mp4">
+      </video>
+
+      <div class="container">
+        <div class="carousel-caption d-md-block">
+          <h1>UPSS... Coś poszło nie tak! <br /> Chyba się zgubileś przywoływaczu! <br />Rozsiądź się wygodnie, a my zajmiemy sie tą sprawą!</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function play()
+{
+  document.getElementsByTagName('video').play();
+}
+
+window.onload = play;
+audioElement.play();
+</script>
+

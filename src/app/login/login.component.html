@@ -1,0 +1,18 @@
+<app-navbar src="/" src_login="/log" src_reg="/reg"></app-navbar>
+
+<div class="container">
+  <form>
+    <div class="mb-3">
+      <label for="username" class="form-label">Nazwa użytkownika</label>
+      <input type="text" class="form-control" id="username" placeholder="Najpiękniejsza nazwa" required>
+    </div>
+    <div class="mb-3">
+      <label for="InputPassword" class="form-label">Hasło</label>
+      <input type="password" class="form-control" id="InputPassword" placeholder="Nabezpieczniejsze hasło" required>
+    </div>
+    <div class="center-button">
+      <button type="submit" class="btn btn-primary" (click)="login()">Zaloguj się</button>
+      <button type="submit" class="btn btn-primary" routerLink="/reg" >Zarejestruj się</button>
+    </div>
+  </form>
+</div>

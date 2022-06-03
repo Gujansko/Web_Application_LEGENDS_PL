@@ -1,0 +1,33 @@
+span 
+{
+  color: #5E6572;
+}
+.bi 
+{
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+img 
+{
+  margin-top: 10px;
+}
+*
+{
+  transition: all 150ms;
+}
+.text-facebook:hover
+{
+  color: #1877F2;
+}
+.text-instagram:hover
+{
+  color: #833AB4;
+}
+.text-youtube:hover
+{
+  color: #FF0000;
+}
+.text-twitter:hover
+{
+  color:  #1DA1F2;
+}

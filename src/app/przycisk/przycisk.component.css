@@ -1,0 +1,22 @@
+a
+{
+  background-color: #000004ff;
+  color:  #fffbfcff;
+  border-width: 0;
+  box-shadow: 5px 5px 12px 1px #5e6572ff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+a:hover
+{
+  background-color:  #0c6291ff;
+  color:  #fffbfcff;
+  transition: all 200ms ease-in-out;
+  transform:scale(1.05);
+}
+.przycisk
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}

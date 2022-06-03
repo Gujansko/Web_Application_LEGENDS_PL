@@ -1,0 +1,18 @@
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-item 
+{
+  height: 50rem;
+}
+.carousel-caption 
+{
+  top: 0;
+  bottom: auto;
+}
+h1
+{
+  color: #FFF8fc;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 6px #000003;
+}

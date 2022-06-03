@@ -1,0 +1,52 @@
+.container-fluid
+{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  width: 80%;
+  text-align: center;
+  box-shadow: 15px 15px 15px #5E6572;
+  background-color: #000004;
+  border-radius: 15px;
+}
+.container-fluid:hover
+{
+  box-shadow: 15px 15px 50px #0c6291ff;
+  transition: all 200ms ease-in-out;
+  transform:scale(1.02);
+}
+.featurette-divider 
+{
+  margin-top: 10px;
+  color:#5E6572;
+}
+h1
+{
+  color: #000004ff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+svg
+{
+  margin: 8px;
+}
+h2
+{
+  color: #fffbfcff;
+  margin: 20px;
+  letter-spacing: 1px;
+}
+.btn-primary,
+.btn-secondary,
+.btn-link
+{
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-decoration: none;
+}
+.btn-primary:hover,
+.btn-secondary:hover 
+{
+  color:  #fffbfcff;
+  transition: all 200ms ease-in-out;
+  transform:scale(1.05);
+}

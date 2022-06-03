@@ -1,0 +1,62 @@
+.container
+{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  width: 40%;
+}
+.center-button 
+{
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+button
+{
+  margin-right: 20px;
+  background-color: #000004ff;
+    color:  #fffbfcff;
+    border: none
+}
+button:hover 
+{
+    background-color:  #0c6291ff;
+    color:  #fffbfcff;
+    transition: all 200ms ease-in-out;
+    transform:scale(1.05);
+}
+
+.mb-3
+{
+  font-size: 20px;
+}
+
+@media(max-width: 1060px)
+{
+  .container 
+  {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    width: 60%;
+  }
+}
+
+@media(max-width: 460px)
+{
+  .container 
+  {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    width: 85%;
+  }
+}
+
+@media(max-width: 290px)
+{
+  .container 
+  {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    width: 95%;
+  }
+}

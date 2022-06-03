@@ -1,0 +1,61 @@
+<div class="container">
+  <form>
+    <div class="mb-3">
+      <label for="username" class="form-label">Nazwa użytkownika</label>
+      <input type="text" class="form-control" id="username" placeholder="Najpiękniejsza nazwa" required>
+      <div class="invalid-feedback">Trzeba podać nazwę użytkownika!</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="InputPassword" class="form-label">Hasło</label>
+      <input type="password" class="form-control" id="InputPassword" placeholder="Nabezpieczniejsze hasło" required>
+    </div>
+    <div class="mb-3">
+      <label for="InputPasswordAgain" class="form-label">Powtórz Hasło</label>
+      <input type="password" class="form-control" id="InputPasswordAgain" placeholder="Pamiętasz swoje hasło?" required>
+    </div>
+    <div class="mb-3">
+      <label for="InputEmail" class="form-label">Adres E-mail</label>
+      <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Jak prześlemy Tobie nagrody?" required>
+      <div id="emailHelp" class="form-text">Nie udostepnimy Twojego maila nikomu innemu!</div>
+    </div>
+    <div class="mb-3">
+      <label for="age" class="form-label">Wiek</label>
+      <input type="number" class="form-control" id="age" min="12" max="122" step="1" pattern="\d*" placeholder="To tylko liczba" required>
+    </div>
+    <div class="mb-3">
+      <select class="form-select" aria-label="Wybór Regionu" id="region" required>
+        <option value="-1" selected>Wybierz swój region:</option>
+        <option value="1">BR</option>
+        <option value="2">EUNE</option>
+        <option value="3">EUW</option>
+        <option value="4">LAN</option>
+        <option value="5">LAS</option>
+        <option value="6">NA</option>
+        <option value="7">OCE</option>
+        <option value="8">RU</option>
+        <option value="9">TR</option>
+        <option value="10">JP</option>
+        <option value="12">KR</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <select class="form-select" aria-label="Wybór Rangi" id="rank" required>
+        <option value="-1" selected>Wybierz swoją range:</option>
+        <option value="0">Unranked</option>
+        <option value="1">Iron</option>
+        <option value="2">Bronze</option>
+        <option value="3">Silver</option>
+        <option value="4">Gold</option>
+        <option value="5">Platinium</option>
+        <option value="6">Diamond</option>
+        <option value="7">Master</option>
+        <option value="8">Grandmaster</option>
+        <option value="9">Challenger</option>
+      </select>
+    </div>
+    <div class="center-button">
+      <button type="submit" class="btn btn-primary" (click)="register()">Potwierdz</button>
+    </div>
+  </form>
+</div>

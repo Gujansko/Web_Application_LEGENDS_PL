@@ -1,0 +1,33 @@
+li 
+{
+  font-size: 20px;
+}
+nav
+{
+  background-color: #000004;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+}
+a
+{
+  color: #fffbfcff;
+}
+a:hover
+{
+  color: #0c6291ff;
+  transition: all 200ms ease-in-out;
+  transform:scale(1.10);
+}
+
+@media (max-width: 333px)
+{
+  li
+  {
+    font-size: 18px;
+  }
+  img
+  {
+    width: 110px;
+  }
+}

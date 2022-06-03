@@ -1,0 +1,26 @@
+li
+{
+  font-size: 20px;
+}
+nav
+{
+  background-color: #000004;
+}
+a
+{
+  color: #fffbfcff;
+}
+a:hover
+{
+  color: #0c6291ff;
+  transition: all 200ms ease-in-out;
+  transform:scale(1.05);
+}
+.dropdown-item
+{
+  color: #000004;
+}
+.dropdown-item:hover
+{
+  color: #0c6291ff;
+}
